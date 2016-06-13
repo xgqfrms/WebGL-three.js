@@ -17,7 +17,7 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
 
 ```html
 <script src="js/three.min.js"></script>
-# <!--CDN 加速-->
+<!--CDN 加速-->
 <script src="http://threejs.org/build/three.min.js"></script>
 <script src="http://threejs.org/build/three.js"></script>
 ```
