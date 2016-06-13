@@ -13,9 +13,15 @@ The aim of the project is to create a lightweight 3D library with a very low lev
 Download the [minified library](http://threejs.org/build/three.min.js) and include it in your html.
 Alternatively see [how to build the library yourself](https://github.com/mrdoob/three.js/wiki/build.py,-or-how-to-generate-a-compressed-Three.js-file).
 
+# 自定义WebGL库
+
 ```html
 <script src="js/three.min.js"></script>
+# <!--CDN 加速-->
+<script src="http://threejs.org/build/three.min.js"></script>
+<script src="http://threejs.org/build/three.js"></script>
 ```
+# <!--CDN 加速-->
 
 This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the document.body element. Finally it animates the cube within the scene for the camera.
 
